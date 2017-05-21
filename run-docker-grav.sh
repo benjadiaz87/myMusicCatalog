@@ -30,7 +30,7 @@ INTERACTIVE_SHELL="/bin/bash"
 # will be started only if you uncomment EXT_SSL_HOSTNAME below (the certificate needs a hostname)
 
 EXT_HOSTNAME=localhost
-EXT_HTTP_PORT=8080
+EXT_HTTP_PORT=80
 EXT_HTTPS_PORT=8443
 
 # Uncomment to enable SSL and specify the certificate hostname
@@ -40,8 +40,8 @@ EXT_HTTPS_PORT=8443
 # Upon start-up, the container will create a new administrative user if one does not already
 # exist with the given name.   To disable this, set ADMIN_USER to the string 'none'.
 
-ADMIN_USER=admin
-ADMIN_PASSWORD=ChangeMe
+ADMIN_USER=benjadiaz
+ADMIN_PASSWORD=+password1
 ADMIN_EMAIL="nobody@nowhere.com"
 
 # If this directory exists and is writable, then it will be used
